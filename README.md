@@ -6,3 +6,8 @@
 English:
 
 This project uses the accessibility AccessibilityService to implement the Android sidebar floating window effect. The functions implemented include return, home page, recent task, launch an app, system volume and brightness adjustment, boot up, receive custom broadcast hidden sidebar, etc. .This project adapts Android 5.0 to Android 9.0.The effect diagram is as follows:
+
+![image](https://github.com/afterschoolkido/AndroidSideBar/tree/master/PICS/1.png)
+![image](https://github.com/afterschoolkido/AndroidSideBar/tree/master/PICS/2.png)
+![image](https://github.com/afterschoolkido/AndroidSideBar/tree/master/PICS/3.png)
+![image](https://github.com/afterschoolkido/AndroidSideBar/tree/master/PICS/4.png)
