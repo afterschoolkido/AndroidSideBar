@@ -1,0 +1,2 @@
+# AndroidTV-SideBar
+使用辅助功能AccessibilityService实现Android侧边栏悬浮窗效果,所有细节都已实现.
