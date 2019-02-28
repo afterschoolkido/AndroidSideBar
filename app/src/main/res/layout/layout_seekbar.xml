@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.android.sidebar.views.VerticalSeekBar
+        android:id="@+id/sb_"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:padding="13dp"
+        android:maxHeight="5dp"
+        android:progressDrawable="@drawable/selector_seekbar"
+        android:thumb="@drawable/ic_circle" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/less"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

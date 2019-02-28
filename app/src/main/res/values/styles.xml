@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- SideBar Button Style -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/text_padding_left_right</item>
+        <item name="android:paddingEnd">@dimen/text_padding_left_right</item>
+        <item name="android:paddingTop">@dimen/text_padding_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/text_padding_top_bottom</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LayoutStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="RootLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="VerticalSeekBar" parent="@android:style/Widget.Holo.SeekBar">
+        <item name="android:progressDrawable">@drawable/selector_seekbar</item>
+        <item name="android:thumb">@drawable/ic_circle</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:padding">30dp</item>
+    </style>
+
+    <style name="RightSeekBarAnim" type="text/css">
+        <item name="android:windowEnterAnimation">@anim/bar_right_enter</item>
+        <item name="android:windowExitAnimation">@anim/bar_right_exit</item>
+    </style>
+
+    <style name="LeftSeekBarAnim" type="text/css">
+        <item name="android:windowEnterAnimation">@anim/bar_left_enter</item>
+        <item name="android:windowExitAnimation">@anim/bar_left_exit</item>
+    </style>
+
+    <style name="MainButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/ripple_bg_button</item>
+        <item name="elevation">5dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:visibility="visible"
+        style="@style/RootLayoutStyle">
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_back"
+                style="@style/ButtonStyle"
+                android:drawableTop="@drawable/ic_back_"
+                android:text="@string/back" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_home"
+                style="@style/ButtonStyle"
+                android:drawableTop="@drawable/ic_home_"
+                android:text="@string/home" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_backstage"
+                style="@style/ButtonStyle"
+                android:drawableTop="@drawable/ic_backstage_"
+                android:text="@string/backstage" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_annotation"
+                style="@style/ButtonStyle"
+                android:drawableTop="@drawable/ic_annotation_"
+                android:text="@string/annotation" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_brightness"
+                style="@style/ButtonStyle"
+                android:drawableTop="@drawable/ic_brightness_"
+                android:text="@string/brightness" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_volume"
+                style="@style/ButtonStyle"
+                android:drawableTop="@drawable/ic_volume_"
+                android:text="@string/volume" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

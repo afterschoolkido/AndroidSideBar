@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SideBar</string>
+    <string name="permission_flatwindow">打开「悬浮窗」</string>
+    <string name="permission_flatwindow_">请开启「悬浮窗」权限~</string>
+    <string name="permission_accessibility">打开「侧边栏」</string>
+    <string name="permission_accessibility_">请开启「侧边栏」权限~</string>
+    <string name="accessibility_description">开启此功能打开侧边栏</string>
+    <string name="app_not_find">未找到批注应用！</string>
+    <string name="brightness">亮度</string>
+    <string name="back">返回</string>
+    <string name="home">主页</string>
+    <string name="annotation">批注</string>
+    <string name="volume">音量</string>
+    <string name="backstage">后台</string>
+    <string name="setting_modify_toast">调节系统亮度需要开启如下权限~</string>
+    <string name="permission_notice">所有权限都已打开</string>
+</resources>

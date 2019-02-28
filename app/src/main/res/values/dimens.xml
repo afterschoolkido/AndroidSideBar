@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size">10sp</dimen>
+    <dimen name="text_padding_left_right">13dp</dimen>
+    <dimen name="text_padding_top_bottom">6dp</dimen>
+    <dimen name="bg_button_radius">4dp</dimen>
+    <dimen name="ic_wh">25dp</dimen>
+    <dimen name="bg_bar_border">0.6dp</dimen>
+</resources>
