@@ -77,9 +77,9 @@ public class SideBarContent implements View.OnClickListener {
         mContentView.findViewById(R.id.tv_backstage).setOnClickListener(this);
         LinearLayout root = mContentView.findViewById(R.id.root);
         if(left) {
-            root.setPadding(15,13,25,13);
+            root.setPadding(15,0,0,0);
         }else {
-            root.setPadding(25,13,15,13);
+            root.setPadding(0,0,15,0);
         }
         mWindowManager.addView(mContentView,params);
         return mContentView;
